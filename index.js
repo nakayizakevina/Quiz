@@ -8,7 +8,10 @@ const question1 = {
     }
     
     
-alert("Question 1");
+
+
+function JStest (attempts){
+    alert("Question 1");
 
 const answer = prompt(
   "1. Which keyword is used to declare a variable in JavaScript that cannot be reassigned?\n" +
@@ -67,10 +70,11 @@ const answer3 = prompt (
 
 )
 
-
-
 if(answer3 === "d" || answer3 === question3.optiond){
     console.log(`${question3.optiond} is correct`);
 } else {
     console.log(`Sorry the right answer is ${question3.optiond}`)
 }
+}
+
+alert (JStest)
