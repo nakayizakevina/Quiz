@@ -11,7 +11,7 @@ const question1 = {
 alert("Question 1");
 
 const answer = prompt(
-  "Which keyword is used to declare a variable in JavaScript that cannot be reassigned?\n" +
+  "1. Which keyword is used to declare a variable in JavaScript that cannot be reassigned?\n" +
   "a) var\n" +
   "b) let\n" +
   "c) const\n" +
@@ -22,4 +22,29 @@ if (answer === "c" || answer === question1.optionc ){
     console.log(`${question1.optionc} is correct`);
 } else {
     console.log(`Sorry the right answer is ${question1.optionc}`)
+}
+
+const question2 ={
+    question: "What does JS stand for in programming?",
+    optiona : "JavaScript",
+    optionb : "JavaStyle",
+    optionc : "JargonSyntax",
+    optiond : "JustScript",
+
+}
+
+const answer2 = prompt (
+    "2. What does JS stand for in programming? \n" +
+    "a) JavaScript \n" + 
+    "b) JavaStyle \n" +
+    "c) JargonSyntax \n" +
+    "d) JustScript"
+
+)
+
+if(answer2 === "a" || answer2 === question2.optiona){
+    console.log(`${question2.optiona} is correct`);
+} else {
+    console.log(`Sorry the right answer is ${question2.optiona}`)
+
 }
