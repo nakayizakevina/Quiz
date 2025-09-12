@@ -48,3 +48,29 @@ if(answer2 === "a" || answer2 === question2.optiona){
     console.log(`Sorry the right answer is ${question2.optiona}`)
 
 }
+
+const question3 = {
+    question : "Which method is used to print output to the browser console in JavaScript?",
+    optiona : "print",
+    optionb : "echo",
+    optionc : "write",
+    optiond : "console.log",
+
+}
+
+const answer3 = prompt (
+    "3. Which method is used to print output to the browser console in JavaScript? \n" +
+    "a) print() \n" + 
+    "b) echo \n" +
+    "c) write \n" +
+    "d) console.log()"
+
+)
+
+
+
+if(answer3 === "d" || answer3 === question3.optiond){
+    console.log(`${question3.optiond} is correct`);
+} else {
+    console.log(`Sorry the right answer is ${question3.optiond}`)
+}
