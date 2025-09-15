@@ -19,7 +19,9 @@ const questions = [
   }
 ]
 
-for (K = 0; K < questions.length; K++){
+
+function testCompliation (){
+   for (K = 0; K < questions.length; K++){
     const iterate = questions[K];
     const answer = prompt (
         `${K+1}.${iterate.question} \n` +
@@ -36,5 +38,8 @@ for (K = 0; K < questions.length; K++){
    
 }
 
-        
+
+}
+    testCompliation();
+
 
